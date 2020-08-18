@@ -1,0 +1,12 @@
+name: mek4300
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - fenics=2019.1.0=py38_9
+  - numpy
+  - matplotlib
+  - mshr
+  - pip
+  - pip:
+    - nbgitpuller
